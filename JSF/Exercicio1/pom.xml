@@ -5,16 +5,16 @@
     <groupId>com.mdterraplenagem.mdsis</groupId>
     <artifactId>mdsis</artifactId>
     <packaging>war</packaging>
-    <name>exercicios_jsf</name>
-    <version>1.0</version>
-    <description>Exercicio1</description>
-  
+
+    <name>exercicios</name>
+
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <org.springframework.version>3.1.1.RELEASE</org.springframework.version>
         <netbeans.hint.deploy.server>Tomcat</netbeans.hint.deploy.server>
     </properties>
+
     <repositories>
         <repository>
             <url>http://repository.jboss.com/maven2/</url>
@@ -390,5 +390,6 @@
             </plugin>
         </plugins>
     </build>
-    
+    <version>1.0</version>
+    <description>MdSis1.0 - R-Sys Softwares Sistemas de Informação</description>
 </project>
